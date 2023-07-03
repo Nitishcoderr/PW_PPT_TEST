@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+.left{
+    /* display: grid;
+    grid-template-columns:1fr 1fr; */
+}
+.left-one{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0.5rem;
+}
+
+.left-one img{
+    width: 95%;
+    height: 40vh;
+}
+
+.right img{
+    width: 60%;
+}

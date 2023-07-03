@@ -1,0 +1,9 @@
+Static -> The static position is the default position for an element. Elements with position: static are positioned according to the normal flow of the document.
+
+Fixed --> The fixed position positions an element relative to the viewport, which means it stays in the same position even when the page is scrolled.
+
+Sticky --> The sticky position is a mix between relative and fixed positions. It positions an element based on the user's scroll position. It behaves like relative until the element reaches a specified threshold, then it becomes fixed.
+
+Relative --> The relative position positions an element relative to its normal position. It allows you to adjust the position of an element based on its original position.
+
+Absolute --> The absolute position positions an element relative to its closest positioned ancestor or the containing element. It is taken out of the normal flow of the document.

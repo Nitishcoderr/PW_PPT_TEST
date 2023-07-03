@@ -1,0 +1,24 @@
+STEP 1: The global execution context is initially added(pushed) on the execution stack by default, in the form of the global() object.
+STEP 2: A Function execution context is added to the stack when a function is invoked or called.
+STEP 3: The Invoked function is executed and removed (popped) from the stack, along with its execution context.
+
+Example : 
+
+function greeting() { 
+   sayHi();
+}
+
+function sayHi() {
+   return "Hi!";
+}
+
+// Invoke the `greeting` function
+greeting();
+
+-->
+
+STEP 1: The GEC is created and pushed on the execution stack as the global() object.
+STEP 2: The greeting() function is invoked and pushed on the stack.
+STEP 2: The sayHi() function is invoked and pushed on the stack.
+STEP 3: The sayHi() function is popped off the stack.
+STEP 3: The greetings() function is popped off the stack.

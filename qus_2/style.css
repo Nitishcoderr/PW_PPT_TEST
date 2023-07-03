@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(242, 163, 53);
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.error{
+    border: 1px;
+    outline: auto;
+    color: red;
+    outline-color: red;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#myForm{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0.8rem;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#myForm div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+#myForm div input{
+    padding: 0.5rem;
+    outline: none;
+}
+
+#gender{
+    outline: none;
+}
+
+button{
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(241, 168, 43);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+select{
+    padding: 0.5rem;
+}
+
+button:hover{
+    background-color: rgb(203, 112, 7);
+}
